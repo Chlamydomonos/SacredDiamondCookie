@@ -1,2 +1,3 @@
-# NotSoLegacyWorkspace
-An updated minecraft 1.7.10 workpsace with Gradle 5.6.4, let's not stay so outdated!
+# 神圣钻石曲奇
+
+这个mod添加了神圣钻石曲奇这一物品，可以让处于地下生存模式的玩家在地面活动5分钟。
