@@ -1,15 +1,51 @@
-[18:39:23] [main/INFO]: Setting user: Player676
-[18:39:24] [Client thread/INFO]: LWJGL Version: 2.9.1
-[18:39:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Sacred Diamond Cookie, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Underground, FMLFileResourcePack:Baubles
-[18:39:34] [Sound Library Loader/INFO]: Sound engine started
-[18:39:35] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[18:39:35] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[18:39:35] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Sacred Diamond Cookie, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Underground, FMLFileResourcePack:Baubles
-[18:39:37] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
-[18:39:37] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[18:39:38] [Sound Library Loader/INFO]: Sound engine started
-[18:39:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Sacred Diamond Cookie, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Underground, FMLFileResourcePack:Baubles
-[18:39:50] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
-[18:39:50] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[18:39:51] [Sound Library Loader/INFO]: Sound engine started
-[18:40:34] [Client thread/INFO]: Stopping!
+[23:51:23] [main/INFO]: Setting user: Player0
+[23:51:24] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:51:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Baubles, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Underground, FMLFileResourcePack:Sacred Diamond Cookie
+[23:51:33] [Sound Library Loader/INFO]: Sound engine started
+[23:51:33] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[23:51:33] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[23:51:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Baubles, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Thaumcraft, FMLFileResourcePack:Underground, FMLFileResourcePack:Sacred Diamond Cookie
+[23:51:35] [Client thread/INFO]: Created: 1024x1024 textures/blocks-atlas
+[23:51:35] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[23:51:36] [Sound Library Loader/INFO]: Sound engine started
+[23:51:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:51:57] [Server thread/INFO]: Generating keypair
+[23:51:58] [Server thread/INFO]: Preparing start region for level 0
+[23:51:58] [Server thread/INFO]: Changing view distance to 12, from 10
+[23:51:59] [Server thread/INFO]: Player0[local:E:7416d5c3] logged in with entity id 369 at (-68.55510557520398, 96.0, 242.48838237346766)
+[23:51:59] [Server thread/INFO]: Player0 加入了游戏
+[23:52:01] [Server thread/INFO]: Saving and pausing game...
+[23:52:01] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[23:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[23:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[23:52:02] [Server thread/INFO]: Saving chunks for level 'Test'/The Outer Lands
+[23:52:07] [Server thread/INFO]: [Player0: 将时间设为 1000]
+[23:52:07] [Client thread/INFO]: [CHAT] 将时间设为 1000
+[23:52:09] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[23:52:10] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[23:52:11] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
+[23:52:12] [Server thread/INFO]: [Player0: 游戏规则已更新]
+[23:52:12] [Client thread/INFO]: [CHAT] 游戏规则已更新
+[23:53:34] [Server thread/INFO]: [Player0: 方块已放置]
+[23:53:34] [Client thread/INFO]: [CHAT] 注意：未来版本将不再支持数字ID的使用。请使用例如 'sdc:strange_carbon_block' 的名称
+[23:53:34] [Client thread/INFO]: [CHAT] 方块已放置
+[23:53:51] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[23:53:52] [Server thread/INFO]: [Player0: 您的游戏模式已被设置为 生存模式 ]
+[23:53:52] [Client thread/INFO]: [CHAT] 您的游戏模式已更新
+[23:54:07] [Client thread/INFO]: [CHAT] /gamemode, /give, /gamerule
+[23:54:09] [Server thread/INFO]: [Player0: 您的游戏模式已被设置为 创造模式 ]
+[23:54:09] [Client thread/INFO]: [CHAT] 您的游戏模式已更新
+[23:59:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 170 ms
+[23:59:45] [Server thread/INFO]: Saving and pausing game...
+[23:59:45] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[23:59:45] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[23:59:45] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[23:59:45] [Server thread/INFO]: Saving chunks for level 'Test'/The Outer Lands
+[23:59:46] [Server thread/INFO]: Stopping server
+[23:59:46] [Server thread/INFO]: Saving players
+[23:59:46] [Server thread/INFO]: Saving worlds
+[23:59:46] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[23:59:46] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[23:59:46] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[23:59:46] [Server thread/INFO]: Saving chunks for level 'Test'/The Outer Lands
+[23:59:48] [Client thread/INFO]: Stopping!

@@ -1,8 +1,13 @@
-package xyz.chlamydomonos.underground.sdc;
+package xyz.chlamydomonos.underground.sdc.core;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
-import xyz.chlamydomonos.underground.sdc.core.CommonProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 
 @Mod(modid = SacredDiamondCookie.MODID,
      name = SacredDiamondCookie.NAME,
@@ -20,10 +25,37 @@ public class SacredDiamondCookie
             "required-after:Thaumcraft@[4.2.3.5,);" +
             "required-after:underground@[1.0.0,)";
 
+    public static CreativeTabs tabSDC = new CreativeTabs("sdc")
+    {
+        @Override
+        public Item getTabIconItem()
+        {
+            return GameRegistry.findItem("minecraft", "stone");
+        }
+    };
+
     @Mod.Instance(SacredDiamondCookie.MODID)
     public static SacredDiamondCookie INSTANCE;
 
     @SidedProxy(serverSide = "xyz.chlamydomonos.underground.sdc.core.CommonProxy",
                 clientSide = "xyz.chlamydomonos.underground.sdc.core.ClientProxy")
     public static CommonProxy PROXY;
+
+    @Mod.EventHandler
+    public void preInit(FMLPreInitializationEvent event)
+    {
+        PROXY.preInit(event);
+    }
+
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event)
+    {
+        PROXY.init(event);
+    }
+
+    @Mod.EventHandler
+    public void postInit(FMLPostInitializationEvent event)
+    {
+        PROXY.postInit(event);
+    }
 }

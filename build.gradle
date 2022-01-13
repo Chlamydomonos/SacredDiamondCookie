@@ -45,6 +45,12 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     implementation files('./libs/industrialcraft-2-2.2.828-experimental-api.jar')
+    runtimeOnly(files(
+            './libs/Baubles-1.7.10-1.0.1.10-deobf.jar',
+            './libs/industrialcraft-2-2.2.828-experimental-dev.jar',
+            './libs/Thaumcraft-deobf-1.7.10-4.2.3.5.jar',
+            './libs/underground-1.0.2-dev.jar'
+    ))
 }
 
 processResources {
