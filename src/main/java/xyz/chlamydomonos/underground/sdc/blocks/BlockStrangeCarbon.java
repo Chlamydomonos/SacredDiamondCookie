@@ -32,7 +32,7 @@ public class BlockStrangeCarbon extends MultiIconBlock
         setHardness(0.5f);
         setResistance(0.5f);
         setTickRandomly(true);
-        setHarvestLevel("pickaxe", 0);
+        setHarvestLevel("shovel", 0);
         setStepSound(Block.soundTypeSand);
         setCreativeTab(SacredDiamondCookie.tabSDC);
     }

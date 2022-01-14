@@ -8,10 +8,12 @@ import xyz.chlamydomonos.underground.sdc.items.*;
 public class ItemLoader
 {
     public static final Item MATERIAL = new ItemMaterial();
+    public static final Item SACRED_DIAMOND_COOKIE = new ItemSacredDiamondCookie();
 
     public ItemLoader()
     {
         register(MATERIAL, "material");
+        register(SACRED_DIAMOND_COOKIE, "sacred_diamond_cookie");
     }
 
     private static void register(Item item, String name)

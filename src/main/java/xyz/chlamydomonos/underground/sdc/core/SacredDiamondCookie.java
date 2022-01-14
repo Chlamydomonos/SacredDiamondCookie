@@ -5,9 +5,9 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import xyz.chlamydomonos.underground.sdc.core.loaders.ItemLoader;
 
 @Mod(modid = SacredDiamondCookie.MODID,
      name = SacredDiamondCookie.NAME,
@@ -30,7 +30,7 @@ public class SacredDiamondCookie
         @Override
         public Item getTabIconItem()
         {
-            return GameRegistry.findItem("minecraft", "stone");
+            return ItemLoader.SACRED_DIAMOND_COOKIE;
         }
     };
 
